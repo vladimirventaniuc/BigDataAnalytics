@@ -1,21 +1,7 @@
-from pyspark.sql import SparkSession
-from pyspark.sql import SQLContext
-from pyspark.sql.functions import concat
-import functools
 import xml.etree.ElementTree as ET
 import re
 import os
 
-from pyspark.sql.types import StructType, StructField, IntegerType, StringType, ArrayType
-
-# schema = StructType(
-#     [
-#         StructField('article_type', StringType()),
-#         StructField('journal_title', StringType()),
-#         StructField('article_title', StringType()),
-#         StructField('authors', ArrayType(StringType()))
-#     ]
-# )
 class Article(object):
   article_type = ''
   journal_title = ''
@@ -34,10 +20,6 @@ class Article(object):
     self.chapters = chapters
     self.article_id = article_id
 
-def init_spark():
-  spark = SparkSession.builder.appName("HelloWorld").getOrCreate()
-  sc = spark.sparkContext
-  return spark,sc
 
 def read_record(xmlns, record):
   article_id = record.find(xmlns + 'header/' + xmlns + 'identifier').text
@@ -159,24 +141,3 @@ def read_directory():
     articles.extend(read_xml(file))
 
   create_xml_file(articles)
-
-def unionAll(dfs):
-    return functools.reduce(lambda df1, df2: df1.union(df2.select(df1.columns)), dfs)
-
-def testtest(spark, sc):
-  df = spark.read.format('xml').options(rowTag='article').load('./result/articles.xml')
-  articles = df.select('_id',concat('chapters.chapter._VALUE'))
-  articles.show()
-  articles_collection = articles.collect()
-  print(len(articles_collection))
-  for i in range(0, len(articles_collection)-1):
-    for j in range (i+1, len(articles_collection)):
-      print(articles_collection[i][0], articles_collection[j][0])
-
-def main():
-  spark,sc = init_spark()
-  testtest(spark, sc)
-  # read_directory()
-
-if __name__ == '__main__':
-  main()

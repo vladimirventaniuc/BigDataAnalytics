@@ -79,10 +79,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578071175633">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578581350872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578071175633" />
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578581350872" />
     <state x="428" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578061407905">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -103,38 +103,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577989889921" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1578236537517">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1578581979214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578236537517" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1578236537517">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578581979214" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1578581979214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578236537517" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1578236537517">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578581979214" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1578581979214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578236537517" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1578236537517">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578581979214" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1578581979214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578236537517" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1578234097836">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578581979214" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1578488999602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578234097836" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1578234097836">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578488999602" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1578488999602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578234097836" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1578234097836">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578488999602" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1578488999602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578234097836" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1578234097836">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578488999602" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1578488999602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578234097836" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578488999602" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1577989874637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -143,20 +143,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1578232104871" />
-    <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578232042670">
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578560624261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578232042670" />
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578560624261" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Main.py</url>
-          <line>144</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
